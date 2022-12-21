@@ -1,0 +1,23 @@
+{
+  "name": "riotchrono",
+  "version": "1.0.0",
+  "description": "find and record playtimes on riot games",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "lol",
+    "tft",
+    "val"
+  ],
+  "author": "Du Duong",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "twisted": "^1.52.0"
+  }
+}
