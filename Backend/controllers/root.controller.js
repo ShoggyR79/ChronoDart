@@ -42,6 +42,7 @@ const getMatches = async (req, res) => {
             startTime: Math.floor((NOW - twoWeeks) / 1000),
             endTime: Math.floor((NOW - oneWeek) / 1000)
         }
+        // calling the api
         const response1 = await lolapi.MatchV5.list(puuid, Constants.RegionGroups.AMERICAS, firstQuery)
         const response2 = await lolapi.MatchV5.list(puuid, Constants.RegionGroups.AMERICAS, secondQuery)
         const response = [...response1.response, ...response2.response]
