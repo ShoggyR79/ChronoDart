@@ -1,2 +1,2 @@
-# Riot Chrono
+# ChronoDart
 ## playtime tracker for riot games.
