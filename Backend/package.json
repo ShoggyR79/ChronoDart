@@ -1,5 +1,5 @@
 {
-  "name": "riotchrono",
+  "name": "chronodart",
   "version": "1.0.0",
   "description": "find and record playtimes on riot games",
   "main": "index.js",
